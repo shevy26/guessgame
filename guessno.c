@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 void main()
-{
+{   srand(time(0));
     int choice,num,c=1;
     num=rand()%100+1;
     printf("********WELCOME TO GUESS THE NO. GAME******\n");
